@@ -15,7 +15,7 @@ async function fetchData() {
     const partiesData = await partiesEU.json();
 
     const tableBody = document.getElementById("table-body");
-    tableBody.innerHTML = ""; // Εκκαθάριση της υπάρχουσας λίστας
+    tableBody.innerhtml = ""; // Εκκαθάριση της υπάρχουσας λίστας
 
     // Φιλτράρισμα των δεδομένων (μόνο όσα έχουν `seats`)
     const filteredData = data.filter((row) => row.seats !== null);
@@ -25,7 +25,7 @@ async function fetchData() {
       const value = belgiumParties[index];
 
       const newRow = document.createElement("tr");
-      newRow.innerHTML = `
+      newRow.innerhtml = `
         <td>${row.party}</td>
         <td style="justify-content: center; display:flex;">${row.seats}</td>
         <td>${row.votes}</td>
@@ -35,7 +35,7 @@ async function fetchData() {
     });
 
     const percentContainer = document.querySelector(".data2 .data-percent");
-    percentContainer.innerHTML = ""; // Καθαρίζουμε την υπάρχουσα λίστα
+    percentContainer.innerhtml = ""; // Καθαρίζουμε την υπάρχουσα λίστα
     let i = 1; 
 
     filteredData.forEach((row) => {
@@ -48,7 +48,7 @@ async function fetchData() {
 
       const newWidth = progressWidth.replace(",", ".");
       console.log(newWidth);
-      percentBar.innerHTML = `
+      percentBar.innerhtml = `
         <div class="name">
           <div class="label">${row.party}</div>
           <div class="percentage">${row.percentage}</div>
@@ -77,7 +77,7 @@ async function fetchData() {
     // Αν δεν υπάρχουν δεδομένα, εμφάνιση μηνύματος
     if (filteredData.length === 0) {
       const noDataRow = document.createElement("tr");
-      noDataRow.innerHTML = '<td colspan="4">No data available</td>';
+      noDataRow.innerhtml = '<td colspan="4">No data available</td>';
       tableBody.appendChild(noDataRow);
     }
   } catch (error) {
@@ -101,10 +101,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   await translate(language);
 
   const redirectLink = document.getElementById("redirectLink");
-  redirectLink.href = `../Html/homepage.html?lang=${language}`;
+  redirectLink.href = `../html/homepage.html?lang=${language}`;
 
   const electionsLink = document.getElementById("elections");
-  electionsLink.href = `../Html/eu-election.html?lang=${language}`;
+  electionsLink.href = `../html/eu-election.html?lang=${language}`;
 
   // Αλλαγή του ID για τη σωστή επιλογή γλώσσας
   const optionLang = document.querySelector(".lang-option");
@@ -161,28 +161,28 @@ document.addEventListener("DOMContentLoaded", async () => {
         let targetPage;
         switch (selectedId) {
           case "austria":
-            targetPage = "../Html/austriapage.html";
+            targetPage = "../html/austriapage.html";
             break;
           case "belgium":
-            targetPage = "../Html/belgiumpage.html";
+            targetPage = "../html/belgiumpage.html";
             break;
           case "denmark":
-            targetPage = "../Html/denmarkpage.html";
+            targetPage = "../html/denmarkpage.html";
             break;
           case "estonia":
-            targetPage = "../Html/estoniapage.html";
+            targetPage = "../html/estoniapage.html";
             break;
           case "finland":
-            targetPage = "../Html/finlandpage.html";
+            targetPage = "../html/finlandpage.html";
             break;
           case "france":
-            targetPage = "../Html/francepage.html";
+            targetPage = "../html/francepage.html";
             break;
           case "greece":
-            targetPage = "../Html/greecepage.html";
+            targetPage = "../html/greecepage.html";
             break;
           case "sweden":
-            targetPage = "../Html/swedenpage.html";
+            targetPage = "../html/swedenpage.html";
             break;
           default:
             alert("Invalid country selection.");

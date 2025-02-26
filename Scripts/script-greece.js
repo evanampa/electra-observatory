@@ -48,7 +48,7 @@ function createPartyMapping(namesData) {
 // Ενημέρωση πίνακα
 function updateTable(data, partyNameMapping, greeceParties) {
   const tableBody = document.getElementById("table-body");
-  tableBody.innerHTML = "";
+  tableBody.innerhtml = "";
 
   const filteredData = data.filter((row) => row.Edres !== 0);
   filteredData.forEach((row, index) => {
@@ -56,7 +56,7 @@ function updateTable(data, partyNameMapping, greeceParties) {
     const value = greeceParties[index];
 
     const newRow = document.createElement("tr");
-    newRow.innerHTML = `
+    newRow.innerhtml = `
       <td>${partyName}</td>
       <td>${row.Edres}</td>
       <td>${row.VOTES}</td>
@@ -70,7 +70,7 @@ function updateTable(data, partyNameMapping, greeceParties) {
 // Ενημέρωση μπαρών ποσοστών
 function updatePercentBars(data, partyNameMapping) {
   const percentContainer = document.querySelector(".data2 .data-percent");
-  percentContainer.innerHTML = "";
+  percentContainer.innerhtml = "";
 
   const filteredData = data.filter((row) => row.Edres !== 0);
 
@@ -81,7 +81,7 @@ function updatePercentBars(data, partyNameMapping) {
 
     const percentBar = document.createElement("div");
     percentBar.className = "percent-bars";
-    percentBar.innerHTML = `
+    percentBar.innerhtml = `
       <div class="name">
         <div class="label">${name}</div>
         <div class="percentage">${row.Perc.toFixed(2)}%</div>
@@ -106,10 +106,10 @@ async function setupLanguage() {
 
   await translate(language);
 
-  document.getElementById("redirectLink").href = `../Html/homepage.html?lang=${language}`;
+  document.getElementById("redirectLink").href = `../html/homepage.html?lang=${language}`;
 
   const electionsLink = document.getElementById("elections");
-  electionsLink.href = `../Html/eu-election.html?lang=${language}`;
+  electionsLink.href = `../html/eu-election.html?lang=${language}`;
   
   const optionLang = document.querySelector(".lang-option");
   optionLang.id = language === "en" ? "gr" : "en";
@@ -181,14 +181,14 @@ function setupCountrySelection() {
 
 function getCountryPage(countryId) {
   const pages = {
-    austria: "../Html/austriapage.html",
-    belgium: "../Html/belgiumpage.html",
-    denmark: "../Html/denmarkpage.html",
-    estonia: "../Html/estoniapage.html",
-    finland: "../Html/finlandpage.html",
-    france: "../Html/francepage.html",
-    greece: "../Html/greecepage.html",
-    sweden: "../Html/swedenpage.html",
+    austria: "../html/austriapage.html",
+    belgium: "../html/belgiumpage.html",
+    denmark: "../html/denmarkpage.html",
+    estonia: "../html/estoniapage.html",
+    finland: "../html/finlandpage.html",
+    france: "../html/francepage.html",
+    greece: "../html/greecepage.html",
+    sweden: "../html/swedenpage.html",
   };
   return pages[countryId];
 }

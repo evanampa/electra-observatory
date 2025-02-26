@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   await translate(language);
 
   const redirectLink = document.getElementById("redirectLink");
-  redirectLink.href = `../Html/homepage.html?lang=${language}`;
+  redirectLink.href = `../html/homepage.html?lang=${language}`;
 
   const electionLink = document.getElementById("elections");
-  electionLink.href = `../Html/eu-election.html?lang=${language}`;
+  electionLink.href = `../html/eu-election.html?lang=${language}`;
 
   // Αλλαγή του ID για τη σωστή επιλογή γλώσσας
   const optionLang = document.querySelector(".lang-option");
@@ -37,28 +37,28 @@ document.addEventListener("DOMContentLoaded", async () => {
         let targetPage;
         switch (selectedId) {
           case "austria":
-            targetPage = "../Html/austriapage.html";
+            targetPage = "../html/austriapage.html";
             break;
           case "belgium":
-            targetPage = "../Html/belgiumpage.html";
+            targetPage = "../html/belgiumpage.html";
             break;
           case "denmark":
-            targetPage = "../Html/denmarkpage.html";
+            targetPage = "../html/denmarkpage.html";
             break;
           case "estonia":
-            targetPage = "../Html/estoniapage.html";
+            targetPage = "../html/estoniapage.html";
             break;
           case "finland":
-            targetPage = "../Html/finlandpage.html";
+            targetPage = "../html/finlandpage.html";
             break;
           case "france":
-            targetPage = "../Html/francepage.html";
+            targetPage = "../html/francepage.html";
             break;
           case "greece":
-            targetPage = "../Html/greecepage.html";
+            targetPage = "../html/greecepage.html";
             break;
           case "sweden":
-            targetPage = "../Html/swedenpage.html";
+            targetPage = "../html/swedenpage.html";
             break;
           default:
             alert("Invalid country selection.");
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   data.forEach((row) => {
     const parties_map = document.createElement("div");
-    parties_map.innerHTML = `
+    parties_map.innerhtml = `
     <div class="namesContainer">
       <p style= "font-weight: bold;">${row.short}: </p>
       <p>${row.name}</p>
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const table = document.querySelector(".container3 table tr");
 
   const countries = document.createElement("th");
-  countries.innerHTML = `
+  countries.innerhtml = `
     <div>
       <span data-translate="COUNTRIES"></span>
     </div>
@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   data.forEach((row) => {
     const partiesOfCountries = document.createElement("th");
-    partiesOfCountries.innerHTML = `
+    partiesOfCountries.innerhtml = `
     <div>
       <span>${row.short}</span>
     </div>
@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
   const total = document.createElement("th");
-  total.innerHTML = `
+  total.innerhtml = `
   <div>
     <span data-translate="Total"></span>
   </div>
@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (row.country_name == null) {
       row.country_name = "Total";
     }
-    countriesSeats.innerHTML = `
+    countriesSeats.innerhtml = `
     <td data-translate="${row.country_name}"></td>
     <td>${row.epp}</td>
     <td>${row.snd}</td>

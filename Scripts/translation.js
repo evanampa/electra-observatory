@@ -20,16 +20,16 @@ async function translate(language) {
     if (language === "en") {
       selectedLang.id = "eng";
       optionLang.id = "gr";
-      selectedLang.innerHTML =
+      selectedLang.innerhtml =
         '<img src="../img/united-kingdom.png" alt="UK Flag" /> English';
-      optionLang.innerHTML = '<img src="../img/greece.png" alt="Greek Flag" /> Greek';
+      optionLang.innerhtml = '<img src="../img/greece.png" alt="Greek Flag" /> Greek';
       flagImg.src = "../img/united-kingdom.png";
     } else if (language === "gr") {
       selectedLang.id = "gr";
       optionLang.id = "eng";
-      selectedLang.innerHTML =
+      selectedLang.innerhtml =
         '<img src="../img/greece.png" alt="Greek Flag" /> Ελληνικά';
-      optionLang.innerHTML =
+      optionLang.innerhtml =
         '<img src="../img/united-kingdom.png" alt="UK Flag" /> Αγγλικά';
       flagImg.src = "../img/greece.png";
     }

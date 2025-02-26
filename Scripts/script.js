@@ -21,14 +21,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     const homepageLink = document.getElementById("homepage");
     
     homepageLink.addEventListener("click", function (){
-      homepageLink.href = `../Html/homepage.html?lang=${currentLanguage}`;
+      homepageLink.href = `../html/homepage.html?lang=${currentLanguage}`;
       window.location.href = homepageLink;
     });
 
     const electionLink = document.getElementById("electionRedirect");
 
     electionLink.addEventListener("click", function (){
-      electionLink.href = `../Html/eu-election.html?lang=${currentLanguage}`;
+      electionLink.href = `../html/eu-election.html?lang=${currentLanguage}`;
       window.location.href = electionLink;
     });
 
@@ -41,42 +41,42 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (selectedValue) {
         switch (selectedValue) {
           case "austria":
-            const austriaPage = "../Html/austriapage.html";
+            const austriaPage = "../html/austriapage.html";
             const austriaUrl = `${austriaPage}?lang=${currentLanguage}`;
             window.location.href = austriaUrl;
             break;
           case "belgium":
-            const belgiumPage = "../Html/belgiumpage.html";
+            const belgiumPage = "../html/belgiumpage.html";
             const belgiumUrl = `${belgiumPage}?lang=${currentLanguage}`;
             window.location.href = belgiumUrl;
             break;
           case "denmark":
-            const denmarkPage = "../Html/denmarkpage.html";
+            const denmarkPage = "../html/denmarkpage.html";
             const denmarkUrl = `${denmarkPage}?lang=${currentLanguage}`;
             window.location.href = denmarkUrl;
             break;
           case "estonia":
-            const estoniaPage = "../Html/estoniapage.html";
+            const estoniaPage = "../html/estoniapage.html";
             const estoniaUrl = `${estoniaPage}?lang=${currentLanguage}`;
             window.location.href = estoniaUrl;
             break;
           case "finland":
-            const finlandPage = "../Html/finlandpage.html";
+            const finlandPage = "../html/finlandpage.html";
             const finlandUrl = `${finlandPage}?lang=${currentLanguage}`;
             window.location.href = finlandUrl;
             break;
           case "france":
-            const francePage = "../Html/francepage.html";
+            const francePage = "../html/francepage.html";
             const franceUrl = `${francePage}?lang=${currentLanguage}`;
             window.location.href = franceUrl;
             break;
           case "greece":
-            const greecePage = "../Html/greecepage.html";
+            const greecePage = "../html/greecepage.html";
             const greeceUrl = `${greecePage}?lang=${currentLanguage}`;
             window.location.href = greeceUrl;
             break;
           case "sweden":
-            const swedenPage = "../Html/swedenpage.html";
+            const swedenPage = "../html/swedenpage.html";
             const swedenUrl = `${swedenPage}?lang=${currentLanguage}`;
             window.location.href = swedenUrl;
             break;
