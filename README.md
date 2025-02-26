@@ -18,4 +18,4 @@ This project is part of my Bachelor's thesis, focusing on building an **Election
 ## 🎯 Purpose
 The goal of this project is to create an interactive, user-friendly platform for tracking and analyzing election results in Europe. It aims to provide accurate, real-time election data to users through efficient data scraping, processing, and visualization.
 
-## Visit the website: 🌍 [Electra Observatory](https://electionsobservatory.netlify.app)
+## Visit the website: 🌍 [Electra Observatory](https://electraobservatory.netlify.app)
