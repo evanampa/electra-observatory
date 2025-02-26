@@ -1,0 +1,513 @@
+/* Βασικές ρυθμίσεις */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Γενικές ρυθμίσεις */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 3%;
+  background-color: rgb(41, 41, 117);
+  height: 80px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Πρώτο wrapper για το κύριο περιεχόμενο */
+.wrapper {
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%; 
+}
+
+.mainContent {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container1 {
+  width: 15%;
+  background-image: url("../img/france-flag.png");
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.container2 {
+  width: 65%;
+  padding: 2% 5%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container3 {
+  width: 20%;
+  background-color: #ddd;
+  padding: 2% 3%;
+  justify-items: center;
+
+}
+
+/* Footer Wrapper */
+.wrapper2 {
+  background-color: rgb(41, 41, 117);
+  padding: 5px 3%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+footer img.logo {
+  width: 160px;
+  height: 57px;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+/* Πρόσθετες λεπτομέρειες */
+#loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #003399;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+li,
+a {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  background: transparent;
+}
+.lang-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.selected-lang {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 130px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.selected-lang img {
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+}
+
+.dropdown-lang {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #001080;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 130px;
+  z-index: 1000;
+}
+
+.lang-option {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  color: white;
+}
+
+.lang-option img {
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+}
+
+.lang-option:hover {
+  background-color: #0040ff;
+}
+
+.lang-menu:hover .dropdown-lang {
+  display: block;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+img.logo {
+  width: 160px;
+  height: 57px;
+  background: transparent;
+}
+
+.nav_links {
+  list-style: none;
+  background: transparent;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+.nav_links li a:hover {
+  color: yellow;
+}
+
+button {
+  padding: 9px 15px;
+  background-color: yellow;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+
+.container2 h1 {
+  font-size: 40px;
+  margin: 1% 0px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container2 p {
+  font-size: 15px;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.data {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  justify-content: center;
+  align-items: center; /* Ευθυγράμμιση στο κέντρο */
+
+}
+
+tbody td {
+  background-color: rgba(255, 255, 255, 0);
+  transition: all 0.2s linear;
+  transition-delay: 0.3s, 0s;
+  opacity: 0.7;
+}
+tbody tr:hover td {
+  background-color: rgb(255, 255, 255);
+  transition-delay: 0s, 0s;
+  opacity: 1;
+  font-size: 1em;
+}
+
+td {
+  transform-origin: center left;
+  transition-property: transform;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
+}
+tr:hover td {
+  transform: scale(1.1);
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  
+}
+
+.header-content {
+  display: flex;
+  gap: 5px;  /* Απόσταση μεταξύ εικόνας και κειμένου */
+  align-items: center; /* Ευθυγράμμιση στο κέντρο */
+
+}
+
+th,
+td {
+  padding: 0.4em;
+}
+
+.header-icon {
+  width: 20px;
+  height: 20px;
+
+}
+
+.data2 {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  max-width: 994px;
+}
+
+.data-table {
+  width: 60%;
+}
+
+.data2 .data-percent {
+  display: grid;
+  padding-top: 2%;
+  width: 100%;
+  gap: 0.25em;
+}
+
+.data2 .data-percent .percent-bars {
+  display: grid;
+  gap: 5px;
+}
+
+.data2 .data-percent .percent-bars .name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #111;
+  font-size: 15px;
+}
+.data2 .data-percent .percent-bars .percentage {
+  font-size: 13px;
+  font-weight: 600;
+  color: #222;
+}
+.data2 .data-percent .percent-bars .bar {
+  width: 100%;
+  height: 8px;
+  background: #eee;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+.data2 .data-percent .percent-bars .bar .progress {
+  display: block;
+  width: 0%;
+  height: 100%;
+  border-radius: 5px;
+  animation: progress 1000ms ease-in-out;
+}
+@keyframes progress {
+  0% {
+    width: 0%;
+  }
+}
+
+.data-genders {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.data-genders img {
+  width: 200px;
+  height: 200px;
+
+}
+.counter-container{
+  justify-items: center;
+}
+
+.counter-container .number{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.counter-container .label{
+  font-size: 20px;
+}
+.countries-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.countries-header {
+  cursor: pointer;
+  color: white;
+}
+
+.nav_links li .countries-header:hover {
+  color: yellow;
+}
+.dropdown-countries {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #001080;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 130px;
+  z-index: 1000;
+}
+
+.countries-option {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  color: white;
+}
+
+.countries-option:hover {
+  background-color: #0040ff;
+}
+
+.countries-menu:hover .dropdown-countries {
+  display: block;
+}
+
+
+/* Για οθόνες με πλάτος μικρότερο από 1024px */
+@media (max-width: 1224px) {
+  .mainContent {
+    flex-direction: column; /* Αλλαγή διάταξης σε στήλες */
+  }
+
+  .container1,
+  .container3 {
+    width: 100%; /* Καλύπτουν ολόκληρο το πλάτος */
+    height: auto; /* Ευέλικτο ύψος */
+  }
+
+  .container2 {
+    width: 100%;
+    padding: 5%;
+  }
+
+  .data {
+    flex-direction: column; /* Τα δεδομένα στοιχίζονται κάθετα */
+  }
+
+  table {
+    font-size: 0.9rem; /* Μικρότερο μέγεθος κειμένου για προσαρμογή */
+  }
+}
+
+/* Για οθόνες με πλάτος μικρότερο από 768px */
+@media (max-width: 768px) {
+  header {
+    flex-wrap: wrap; /* Επιτρέπει την αλλαγή γραμμής αν δεν χωράνε τα στοιχεία */
+    height: auto;
+    padding: 10px;
+  }
+
+  .nav_links li {
+    display: block; /* Τα links γίνονται κάθετα */
+    padding: 10px 0;
+  }
+
+  .wrapper {
+    margin-top: 100px; /* Αυξάνουμε το περιθώριο αν μεγαλώσει το header */
+  }
+
+  .container1,
+  .container3 {
+    display: none; /* Απόκρυψη μη κρίσιμων περιεχομένων σε μικρές οθόνες */
+  }
+
+  .container2 {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .container2 h1 {
+    font-size: 24px; /* Μειώνουμε το μέγεθος του τίτλου */
+  }
+
+  .container2 p {
+    font-size: 14px; /* Μειώνουμε το μέγεθος της παραγράφου */
+  }
+}
+
+/* Για οθόνες με πλάτος μικρότερο από 480px */
+@media (max-width: 480px) {
+  h1,
+  p {
+    font-size: 1rem; /* Μικρότερο μέγεθος γραμματοσειράς */
+  }
+
+  .selected-lang,
+  .lang-option {
+    font-size: 0.8rem;
+    padding: 5px;
+  }
+
+  .data {
+    gap: 2%; /* Μείωση απόστασης */
+  }
+
+  table {
+    font-size: 0.8rem;
+  }
+
+  th,
+  td {
+    padding: 0.3em; /* Μείωση padding */
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer img.logo {
+    width: 120px;
+    height: 40px;
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "COUNTRIES_ELECTION": "Countries Election",
+  "EU_ELECTION": "EU Election",
+  "WELCOME": "Welcome to Europe",
+  "WELCOME_ELECTRA": "and Electra Observatory",
+  "WELCOME_PARAGRAPH": "Welcome to Europe and Electra observatory, your dedicated source for tracking  and analyzing election results across European Union countries and the European Parliament. Through this platform, you can stay informed on the latest outcomes and statistical data through Europe's political landscape. Our goal is to provide an accessible and up-to-date resource for anyone interested in the EU's evolving political scene.",
+  "GREECE_AND_EU_TITLE": "Greece and the European Union",
+  "GREECE_AND_EU_PARAGRAPH": "Greece joined the European Union in 1981, marking a pivotal moment in the country’s modern history. EU membership has brought significant benefits, including economic support, infrastructure development, and integration into the single market. Despite challenges, such as the financial crisis, Greece has strengthened its role in European policymaking. Today, it remains an active contributor to the EU, promoting unity, sustainable growth, and collective solutions to issues like migration and climate change.",
+  "CHOOSE_COUNTRY": "Choose the European country to see the last election results",
+  "SELECT_OPTION": "Select your option",
+  "SELECT_AUSTRIA": "Austria",
+  "SELECT_BELGIUM": "Belgium",
+  "SELECT_DENMARK": "Denmark",
+  "SELECT_ESTONIA": "Estonia",
+  "SELECT_FINLAND": "Finland",
+  "SELECT_FRANCE": "France",
+  "SELECT_GREECE": "Greece",
+  "SELECT_SWEDEN": "Sweden",
+  "BUTTON_MORE": "See more",
+
+  "PARTY": "Party",
+  "SEATS": "Seats",
+  "VOTES": "Votes",
+  "PERCENT": "Percentage",
+  "PART_OF": "EP party",
+
+  "MEN_ELECTED": "Men elected",
+  "WOMEN_ELECTED": "Women elected",
+
+  "BELGIUM_INFO": "Belgium’s 2024 federal elections took place on June 9, with citizens voting to elect 150 members of the Chamber of Representatives, the lower house of parliament. The elections follow a proportional representation system, dividing the seats among political parties based on their share of the vote. The country is split into regional constituencies, reflecting its complex structure of federalism. Forming a government often requires months of negotiation, emphasizing the challenges of coalition politics in Belgium.",
+
+  "AUSTRIA_INFO": "Austria’s 2024 parliamentary elections were held on September 29, with voters electing 183 members to the National Council, the lower house of parliament. The elections operate under a proportional representation system, with seats distributed among parties based on their national vote share. Austria is divided into regional constituencies, reflecting its federal structure. Coalition negotiations are common in Austria, reflecting the country's diverse political spectrum.",
+
+  "DENMARK_INFO": "Denmark’s most recent parliamentary elections were held on November 1, 2022, with voters electing 179 members to the Folketing, the Danish parliament. The elections follow a proportional representation system, ensuring fair representation for smaller parties. Out of the 179 seats, two are reserved for representatives from Greenland and two from the Faroe Islands. Key issues during the campaign included climate policy, healthcare, and economic reforms, reflecting the priorities of Danish voters.",
+
+  "ESTONIA_INFO": "Estonia’s 2023 parliamentary elections were held on March 5, with voters electing 101 members to the Riigikogu, the Estonian parliament. The elections follow a mixed-member proportional representation system, where some seats are allocated based on regional votes, while others are distributed according to party lists.  The results reflected Estonia's growing focus on issues such as security, economic stability, and digital innovation. Coalition talks began immediately, as no party secured an outright majority.",
+
+  "FINLAND_INFO": "Finland’s 2023 parliamentary elections were held on April 2, with voters electing 200 members to the Eduskunta, the Finnish parliament. The elections use a proportional representation system, where seats are distributed based on each party’s share of the vote in multi-member constituencies. Key issues during the campaign included economic reforms, energy policy, and NATO membership, reflecting Finland’s shifting priorities in a changing geopolitical environment.",
+
+  "FRANCE_INFO": "France’s 2024 legislative elections were held in June, with voters electing 577 members to the National Assembly, the lower house of parliament. The elections use a two-round majority voting system, where candidates must secure more than 50% of the votes to win in the first round, or face a runoff in constituencies without a clear majority. Key issues included economic reforms, energy independence, and addressing social unrest, shaping the composition of the new parliament and France’s political future.",
+
+  "GREECE_INFO": "Greece’s 2023 national elections were held on June 25, following an earlier election in May that did not produce a governing majority. These elections used an enhanced proportional representation system, which provides bonus seats to the leading party to ensure stable governance. Voters elected 300 members to the Hellenic Parliament. Key issues during the campaign included economic recovery, public health, education reforms, and national security, reflecting the priorities of Greek voters and the challenges facing the country.",
+
+  "SWEDEN_INFO": "Sweden’s 2022 general elections were held on September 11, with voters electing 349 members to the Riksdag, Sweden’s parliament. The elections used a proportional representation system, ensuring that parties gain seats in proportion to their national vote share, provided they pass the 4% threshold. Key campaign issues included immigration, energy policy, and crime prevention, reflecting evolving voter concerns.",
+
+  "WELCOME_PARLIAMENT": "Welcome to the European Parliament",
+  "EUROPEAN_PARAGRAPH": "The 2024 European Parliament elections took place from June 6 to 9 across the European Union, with voters electing 705 Members of the European Parliament (MEPs). These elections followed a proportional representation system, with each EU member state allocating seats based on its population. The results reflected diverse political trends across the EU. Key issues during the campaign included climate policy, economic resilience, and the EU's role in global geopolitics. The elections highlighted citizens’ growing interest in shaping the EU’s future direction.",
+  "EUROPEAN_PARTIES":"The elected parties",
+  "EUROPEAN_SEATS": "Seats of parties in the parliament",
+  "EUROPEAN_PERCENTS": "Percent of parties in the parliament",
+  "EUROPEAN_SEATS_COUNTRIES": "Seats by country",
+  "COUNTRIES": "Countries",
+  "Austria" : "Austria",
+  "Belgium" : "Belgium",
+  "Bulgaria" : "Bulgaria",
+  "Croatia" : "Croatia",
+  "Cyprus" : "Cyprus",
+  "Czechia" : "Czechia",
+  "Denmark" : "Denmark",
+  "Estonia" : "Estonia",
+  "Finland" : "Finland",
+  "France" : "France",
+  "Germany" : "Germany",
+  "Greece" : "Greece",
+  "Hungary" : "Hungary",
+  "Ireland" : "Ireland",
+  "Italy" : "Italy",
+  "Latvia" : "Latvia",
+  "Lithuania" : "Lithuania",
+  "Luxembourg" : "Luxembourg",
+  "Malta" : "Malta",
+  "Netherlands" : "Netherlands",
+  "Poland" : "Poland",
+  "Portugal" : "Portugal",
+  "Romania" : "Romania",
+  "Slovakia" : "Slovakia",
+  "Slovenia" : "Slovenia",
+  "Spain" : "Spain",
+  "Sweden" : "Sweden",
+  "Total": "Total"
+
+}

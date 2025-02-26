@@ -1,0 +1,484 @@
+/* Βασικές ρυθμίσεις */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url(//fonts.googleapis.com/css?family=Oswald:400);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+
+}
+
+/* Κύριο περιεχόμενο */
+#mainContent {
+  position: relative;
+  z-index: 10;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Στυλ λίστας, κουμπιών και συνδέσμων */
+li,
+a {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  background: transparent;
+}
+.lang-menu {
+  position: relative;
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+}
+
+.selected-lang {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 130px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.selected-lang img {
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+}
+
+.dropdown-lang {
+  display: none; 
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  background-color: #001080; 
+  border: 1px solid white; 
+  border-radius: 5px;
+  width: 130px;
+  z-index: 1000;
+}
+
+.lang-option {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  color: white;
+}
+
+.lang-option img {
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+}
+
+.lang-option:hover {
+  background-color: #0040ff; 
+}
+
+.lang-menu:hover .dropdown-lang {
+  display: block; 
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 3%;
+  background-color: rgb(41, 41, 117);
+}
+
+footer {
+  background-color: rgb(41, 41, 117);
+  width: 100%;
+  padding: 7px 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 15px;
+  }
+}
+.logo {
+  cursor: pointer;
+}
+
+img.logo {
+  width: 160px;
+  height: 57px;
+  background: transparent;
+}
+
+.nav_links {
+  list-style: none;
+  background: transparent;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+.nav_links li a:hover {
+  color: yellow;
+}
+
+
+/* Κεντρικό container */
+.container {
+  height: 100vh;
+  background-color: #f4f4f4; /* Fallback χρώμα */
+  background-image: url("../img/parliament_illustration.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center; /* Οριζόντιο κεντράρισμα */
+  align-items: center; 
+}
+
+.container2 {
+  width: 100%;
+  flex-grow: 1; 
+  margin: 15px auto;
+
+}
+
+.text-block {
+  background: rgba(33, 33, 33, 0.9); 
+  color: #f1f1f1;
+  padding: 20px;
+  border-radius: 7px;
+  min-width: 50%;
+  min-height: 10%; /* Ελάχιστο ύψος για μικρότερα κείμενα */
+  text-align: center;
+  position: relative;
+  width: 60%; /* Default width */
+  max-width: 700px; /* Limit maximum width */
+  min-width: 250px; /* Minimum width */
+  margin: auto; /* Center the text block */
+}
+
+.text-block h1 {
+  font-size: 32px; /* Αρχικό μέγεθος */
+}
+
+.text-block p {
+  margin-top: 2%;
+  font-size: large;
+}
+
+hr {
+  margin: 10px 0 0 0;
+  border: 2px solid orange;
+}
+
+/* Typewriter effect */
+.typewriter {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+  border-right: 0.15em solid orange; /* Δείκτης typewriter */
+  white-space: nowrap;
+  letter-spacing: 0.1em;
+  animation: typing 3.5s steps(30, end) 1s,
+    /* Καθυστέρηση 2 δευτερόλεπτα */ blink-caret 0.8s step-end infinite 1s; /* Ίδια καθυστέρηση για το caret */
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+.countries-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.countries-header {
+  cursor: pointer;
+  color: white;
+}
+
+.nav_links li .countries-header:hover {
+  color: yellow;
+}
+.dropdown-countries {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #001080;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 130px;
+  z-index: 1000;
+}
+
+.countries-option {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  color: white;
+}
+
+.countries-option:hover {
+  background-color: #0040ff;
+}
+
+.countries-menu:hover .dropdown-countries {
+  display: block;
+}
+
+.graphBox{
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  min-height: 150px;
+
+}
+.graphBox .box{
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.137);
+  border-radius: 20px;
+}
+.container1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5%;
+  gap: 40px;
+
+  img{
+    height: auto;
+    width: 400px;
+  }
+
+}
+.container1 .Parties{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.namesContainer{
+  display: flex;
+  flex-direction:row;
+  gap:2%;
+  margin-top: 1%;
+}
+
+.container3{
+  position: relative;
+  background-color: #f5f5f5;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.137);
+  border-radius: 20px;
+  text-align: center;
+}
+
+
+tbody td {
+  background-color: rgba(255, 255, 255, 0);
+  transition: all 0.2s linear;
+  transition-delay: 0.3s, 0s;
+  opacity: 0.7;
+}
+tbody tr:hover td {
+  background-color: rgb(255, 255, 255);
+  transition-delay: 0s, 0s;
+  opacity: 1;
+  font-size: 1.3em;
+}
+
+td {
+  transform-origin: center center;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+tr:hover td {
+  transform: scale(1.1);
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  table-layout: fixed; 
+  padding: 2% 10%;
+
+}
+
+th,
+td {
+  text-align: center;
+  padding: 0.4em;
+}
+/* Βασικές responsive ρυθμίσεις */
+@media (max-width: 1200px) {
+  .container1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .container1 img {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .container1 p {
+    width: 100%;
+  }
+
+  .graphBox {
+    grid-template-columns: 1fr;
+  }
+
+  .text-block {
+    width: 80%; /* Adjust width for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav_links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .lang-menu {
+    width: 100%;
+  }
+
+  .selected-lang {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .dropdown-lang {
+    width: 100%;
+  }
+
+  .container1 {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .container1 img {
+    max-width: 90%;
+  }
+
+  .text-block {
+    width: 90%; /* Adjust for smaller screens */
+    padding: 15px; /* Smaller padding */
+  }
+
+  .text-block h1 {
+    font-size: 24px; /* Μικρότερο μέγεθος για μικρές οθόνες */
+  }
+
+  .graphBox {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav_links li {
+    padding: 0;
+  }
+
+  .nav_links li a {
+    font-size: 14px;
+  }
+
+  .countries-header,
+  .countries-option {
+    font-size: 14px;
+  }
+
+  .selected-lang,
+  .lang-option {
+    font-size: 14px;
+  }
+
+  .text-block {
+    width: 95%; /* Nearly full width on very small screens */
+    padding: 10px; /* Smaller padding */
+  }
+
+  .text-block h1 {
+    font-size: 5px; /* Πολύ μικρότερο μέγεθος για πολύ μικρές οθόνες */
+  }
+
+  .graphBox .box {
+    padding: 10px;
+  }
+
+  .container3 {
+    padding: 10px;
+    text-align: left;
+  }
+
+  table {
+    font-size: 12px;
+  }
+}

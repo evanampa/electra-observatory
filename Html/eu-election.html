@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electra Observatory</title>
+    <link rel="stylesheet" href="../CSS/electionspage.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+  </head>
+  <body>
+    <div id="mainContent">
+      <header>
+        <a id="redirectLink">
+          <img class="logo" src="../img/logo.png" alt="Electra Logo" />
+        </a>
+        <nav>
+          <ul class="nav_links">
+            <li>
+              <div class="countries-menu">
+                <div
+                  class="countries-header"
+                  id=""
+                  data-translate="COUNTRIES_ELECTION"
+                ></div>
+                <div class="dropdown-countries">
+                  <div
+                    class="countries-option"
+                    id="austria"
+                    data-translate="SELECT_AUSTRIA"
+                  ></div>
+                  <div
+                    class="countries-option"
+                    id="belgium"
+                    data-translate="SELECT_BELGIUM"
+                  ></div>
+                  <div
+                    class="countries-option"
+                    id="denmark"
+                    data-translate="SELECT_DENMARK"
+                  ></div>
+                  <div
+                    class="countries-option"
+                    id="estonia"
+                    data-translate="SELECT_ESTONIA"
+                  ></div>
+                  <div
+                    class="countries-option"
+                    id="finland"
+                    data-translate="SELECT_FINLAND"
+                  ></div>
+                  <div
+                    class="countries-option"
+                    id="france"
+                    data-translate="SELECT_FRANCE"
+                  ></div>
+                  <div
+                    class="countries-option"
+                    id="greece"
+                    data-translate="SELECT_GREECE"
+                  ></div>
+                  <div
+                    class="countries-option"
+                    id="sweden"
+                    data-translate="SELECT_SWEDEN"
+                  ></div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a id="elections"
+                data-translate="EU_ELECTION"
+              ></a>
+            </li>
+          </ul>
+        </nav>
+        <div class="lang-menu">
+          <div class="selected-lang" id="eng">
+            <img src="../img/united-kingdom.png" alt="UK Flag" />
+            English
+          </div>
+          <div class="dropdown-lang">
+            <div class="lang-option" id="gr">
+              <img src="../img/greece.png" alt="Greek Flag" />
+              Greek
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="text-block">
+          <h1 class="typewriter" data-translate="WELCOME_PARLIAMENT"></h1>
+          <hr />
+        </div>
+      </div>
+      <div class="container1">
+        <img src="../img/european_flags.jpg">
+        <p style="width: 40%;" data-translate="EUROPEAN_PARAGRAPH"></p>
+        <div class="Parties" id="PartiesMap">
+          <h2 data-translate="EUROPEAN_PARTIES"></h2>
+          <hr />
+        </div>
+      </div>
+      <div class="container2">
+        <div class="graphBox">
+          <div class="box">
+            <h2 data-translate="EUROPEAN_SEATS"></h2>
+            <hr />
+            <canvas id="myChart2" style="margin-top : 10%;" ></canvas>
+          </div>
+          <div class="box">
+            <h2 data-translate="EUROPEAN_PERCENTS"></h2>
+            <hr />
+            <canvas id="myChart" style="height: 200px; width: 200px;"></canvas>
+          </div>
+        </div>
+      </div>
+      <div class="container3">
+        <h2 data-translate="EUROPEAN_SEATS_COUNTRIES"></h2>
+        <hr />
+        <table>
+          <thead>
+            <tr>
+              
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
+    </div>
+    <footer>
+      <a href="#">
+        <img class="logo" src="../img/logo.png" alt="Electra Logo" />
+      </a>
+      <p>2024-2025</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+    <script src="../Scripts/script-elections.js" type="module"></script>
+    <script src="../Scripts/translation.js" type="module"></script>
+  </body>
+</html>

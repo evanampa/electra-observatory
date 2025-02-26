@@ -1,0 +1,112 @@
+{
+  "austria": [
+    {
+      "FPO": "PfE",
+      "OVP": "EPP",
+      "SPO": "S&D",
+      "NEOS": "Renew Europe",
+      "GRUNE": "Greens/EFA"
+    }
+  ],
+  "belgium": [
+    {
+      "NVA": "ECR",
+      "VLAAMS": "PfE",
+      "PS": "S&D",
+      "CDV": "EPP",
+      "PVDA": "The Left",
+      "OPEN": "Renew Europe",
+      "MR": "Renew Europe",
+      "SPA": "S&D",
+      "ECOLO": "Greens/EFA",
+      "GROEN": "Greens/EFA",
+      "CDH": "Renew Europe",
+      "DEFI": "-"
+    }
+  ],
+  "denmark": [
+    {
+      "A": "S&D",
+      "V": "Renew Europe",
+      "M": "Renew Europe",
+      "F": "Greens/EFA",
+      "AE": "ECR",
+      "I": "EPP",
+      "C ": "EPP",
+      "Ø": "The Left",
+      "B": "Renew Europe",
+      "D": "-",
+      "Å": "-",
+      "O": "PfE",
+      "Q": "-",
+      "K": "-",
+      "Uden": "-"
+    }
+  ],
+  "estonia": [
+    {
+      "Reformierakond": "Renew Europe",
+      "Konservatiivne": "-",
+      "Keskerakond": "Renew Europe",
+      "Erakond200": "-",
+      "Sotsiaaldemokraatlik": "S&D",
+      "Isamaa": "EPP"
+    }
+  ],
+  "finland": [
+    {
+      "SDP": "S&D",
+      "PS": "ECR",
+      "KOK": "EPP",
+      "KESK": "Renew Europe",
+      "VIHR": "Greens/EFA",
+      "VAS": "The Left",
+      "SFP": "Renew Europe",
+      "KD": "-",
+      "LIIK": "-"
+    }
+  ],
+  "france": [
+    {
+      "RN": "PfE",
+      "UG": "-",
+      "ENS": "-",
+      "LR": "EPP",
+      "UXD": "-",
+      "DVD": "ECR",
+      "DVG": "-",
+      "REG": "-",
+      "DVC": "-",
+      "HOR": "Renew Europe",
+      "UDI": "Renew Europe",
+      "ECO": "Greens/EFA",
+      "DIV": "-",
+      "EXD": "-",
+      "SOC": "S&D"
+    }
+  ],
+  "greece": [
+    {
+      "ND": "EPP",
+      "SYRIZA": "The Left",
+      "PASOK": "S&D",
+      "KKE": "NI",
+      "SPARTIATES": "-",
+      "EL": "ECR",
+      "NIKH": "NI",
+      "PLEFSI": "NI"
+    }
+  ],
+  "sweden": [
+    {
+      "S": "S&D",
+      "SD": "ECR",
+      "M": "EPP",
+      "V": "The Left",
+      "C": "Renew Europe",
+      "KD": "EPP",
+      "MP": "Greens/EFA",
+      "L": "Renew Europe"
+    }
+  ]
+}

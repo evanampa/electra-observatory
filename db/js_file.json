@@ -1,0 +1,328 @@
+{
+  "EPIK_ID": 1,
+  "Updated": "2023-07-12 14:51:45.990",
+  "Gramenoi": 9813595,
+  "Egkyra": 5215207,
+  "Akyra": 32219,
+  "Leyka": 26273,
+  "NumTm": 21869,
+  "NumTmK": 21300,
+  "NumTmE": 335,
+  "NumTmM": 234,
+  "WIN_ID": 2,
+  "official": 0,
+  "party": [
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 2,
+      "VOTES": 2115322,
+      "Perc": 40.5606527,
+      "TakesEdres": 1,
+      "Edres": 152,
+      "EdresEpik": 6,
+      "Rank": 1
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 4,
+      "VOTES": 930013,
+      "Perc": 17.832715,
+      "TakesEdres": 1,
+      "Edres": 44,
+      "EdresEpik": 3,
+      "Rank": 2
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 106,
+      "VOTES": 617487,
+      "Perc": 11.8401245,
+      "TakesEdres": 1,
+      "Edres": 30,
+      "EdresEpik": 2,
+      "Rank": 3
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 3,
+      "VOTES": 401224,
+      "Perc": 7.6933476,
+      "TakesEdres": 1,
+      "Edres": 20,
+      "EdresEpik": 1,
+      "Rank": 4
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 157,
+      "VOTES": 243922,
+      "Perc": 4.6771298,
+      "TakesEdres": 1,
+      "Edres": 12,
+      "EdresEpik": 0,
+      "Rank": 5
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 108,
+      "VOTES": 231491,
+      "Perc": 4.4387692,
+      "TakesEdres": 1,
+      "Edres": 11,
+      "EdresEpik": 1,
+      "Rank": 6
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 131,
+      "VOTES": 193124,
+      "Perc": 3.7030937,
+      "TakesEdres": 1,
+      "Edres": 9,
+      "EdresEpik": 1,
+      "Rank": 7
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 123,
+      "VOTES": 165523,
+      "Perc": 3.1738529,
+      "TakesEdres": 1,
+      "Edres": 7,
+      "EdresEpik": 1,
+      "Rank": 8
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 122,
+      "VOTES": 130378,
+      "Perc": 2.4999583,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 9
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 153,
+      "VOTES": 25858,
+      "Perc": 0.4958192,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 10
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 158,
+      "VOTES": 22347,
+      "Perc": 0.4284969,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 11
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 28,
+      "VOTES": 21188,
+      "Perc": 0.4062734,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 12
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 150,
+      "VOTES": 17181,
+      "Perc": 0.3294404,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 13
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 44,
+      "VOTES": 15887,
+      "Perc": 0.3046284,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 14
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 155,
+      "VOTES": 15725,
+      "Perc": 0.3015221,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 15
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 140,
+      "VOTES": 14781,
+      "Perc": 0.2834212,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 16
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 15,
+      "VOTES": 14286,
+      "Perc": 0.2739297,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 17
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 130,
+      "VOTES": 13652,
+      "Perc": 0.2617729,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 18
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 125,
+      "VOTES": 9420,
+      "Perc": 0.1806256,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 19
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 113,
+      "VOTES": 6408,
+      "Perc": 0.1228714,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 20
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 10,
+      "VOTES": 4250,
+      "Perc": 0.0814925,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 21
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 78,
+      "VOTES": 2965,
+      "Perc": 0.056853,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 22
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 66,
+      "VOTES": 1374,
+      "Perc": 0.026346,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 23
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 11,
+      "VOTES": 1104,
+      "Perc": 0.0211689,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 24
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 152,
+      "VOTES": 132,
+      "Perc": 0.0025311,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 25
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 65,
+      "VOTES": 122,
+      "Perc": 0.0023393,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 26
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 159,
+      "VOTES": 23,
+      "Perc": 0.000441,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 27
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 151,
+      "VOTES": 17,
+      "Perc": 0.000326,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 28
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 156,
+      "VOTES": 3,
+      "Perc": 5.75e-5,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 29
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 20,
+      "VOTES": 0,
+      "Perc": 0,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 30
+    },
+    {
+      "EPIK_ID": 1,
+      "PARTY_ID": 998,
+      "VOTES": 0,
+      "Perc": 0,
+      "TakesEdres": 0,
+      "Edres": 0,
+      "EdresEpik": 0,
+      "Rank": 31
+    }
+  ],
+  "LockLevel": 3,
+  "LockEdres": 1
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electra Observatory</title>
+    <link rel="stylesheet" href="../CSS/homepagestyle.css" />
+  </head>
+  <body>
+    <!-- Canvas animation -->
+    <canvas id="canvas1"></canvas>
+
+    <!-- Main content -->
+    <div id="mainContent" style="display: none; opacity: 0">
+      <header>
+        <a id="homepage">
+          <img class="logo" src="../img/logo.png" alt="Electra Logo" />
+        </a>
+        <nav>
+          <ul class="nav_links">
+            <li><a href="#flag1" data-translate="COUNTRIES_ELECTION"></a></li>
+            <li><a id="electionRedirect"  data-translate="EU_ELECTION"></a></li>
+          </ul>
+        </nav>
+        <div class="lang-menu">
+          <div class="selected-lang" id="eng">
+            <img src="../img/united-kingdom.png" alt="UK Flag" />
+            English
+          </div>
+          <div class="dropdown-lang">
+            <div class="lang-option" id="gr">
+              <img src="../img/greece.png" alt="Greek Flag" />
+              Greek
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="container">
+        <div class="text-block">
+          <h1 class="typewriter" data-translate="WELCOME"></h1>
+          <h2 data-translate="WELCOME_ELECTRA"></h2>
+          <hr />
+          <p data-translate="WELCOME_PARAGRAPH"></p>
+        </div>
+      </div>
+      <div class="europe-info">
+        <img src="../img/europe.png" alt="Globe" />
+        <div class="info">
+          <h1 data-translate="GREECE_AND_EU_TITLE"></h1>
+          <hr style="width: 80%" />
+          <p data-translate="GREECE_AND_EU_PARAGRAPH"></p>
+        </div>
+      </div>
+      <div class="horizontal" id="flag1">
+        <div class="image-container">
+          <img
+            class="image-frame dynamic-image"
+            src=""
+            loading="lazy"
+            alt="dynamic image"
+          />
+          <img
+            class="image-frame dynamic-image"
+            src=""
+            loading="lazy"
+            alt="dynamic image"
+          />
+          <img
+            class="image-frame dynamic-image"
+            src=""
+            loading="lazy"
+            alt="dynamic image"
+          />
+        </div>
+        <div class="container2">
+          <h1 data-translate="WELCOME"></h1>
+          <p data-translate="CHOOSE_COUNTRY"></p>
+          <div class="selectbox">
+            <select name="countries" id="countries">
+              <option
+                value=""
+                disabled
+                selected
+                hidden
+                data-translate="SELECT_OPTION"
+              ></option>
+              <option value="austria" data-translate="SELECT_AUSTRIA"></option>
+              <option value="belgium" data-translate="SELECT_BELGIUM"></option>
+              <option value="denmark" data-translate="SELECT_DENMARK"></option>
+              <option value="estonia" data-translate="SELECT_ESTONIA"></option>
+              <option value="finland" data-translate="SELECT_FINLAND"></option>
+              <option value="france" data-translate="SELECT_FRANCE"></option>
+              <option value="greece" data-translate="SELECT_GREECE"></option>
+              <option value="sweden" data-translate="SELECT_SWEDEN"></option>
+            </select>
+            <button class="arrow-button" id="redirectButton">
+              <span class="button-text" data-translate="BUTTON_MORE"></span>
+              <span class="arrow"></span>
+            </button>
+          </div>
+        </div>
+        <div class="image-container">
+          <img
+            class="image-frame dynamic-image"
+            src=""
+            loading="lazy"
+            alt="dynamic image"
+          />
+          <img
+            class="image-frame dynamic-image"
+            src=""
+            loading="lazy"
+            alt="dynamic image"
+          />
+          <img
+            class="image-frame dynamic-image"
+            src=""
+            loading="lazy"
+            alt="dynamic image"
+          />
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a href="#">
+        <img class="logo" src="../img/logo.png" alt="Electra Logo" />
+      </a>
+      <p>2024-2025</p>
+    </footer>
+    <script src="../Scripts/script.js" type="module"></script>
+    <script src="../Scripts/translation.js" type="module"></script>
+  </body>
+</html>

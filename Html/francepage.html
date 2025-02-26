@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>France Results</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/francepage.css" />
+  </head>
+  <body>
+    <header>
+      <a id="redirectLink">
+        <img class="logo" src="../img/logo.png" alt="Electra Logo" />
+      </a>
+      <nav>
+        <ul class="nav_links">
+          <li>
+            <div class="countries-menu">
+              <div class="countries-header" id="" data-translate="COUNTRIES_ELECTION">
+              </div>
+              <div class="dropdown-countries">
+                <div class="countries-option" id="austria" data-translate="SELECT_AUSTRIA">
+                </div>
+                <div class="countries-option" id="belgium" data-translate="SELECT_BELGIUM">
+                </div>
+                <div class="countries-option" id="denmark" data-translate="SELECT_DENMARK">
+                </div>
+                <div class="countries-option" id="estonia" data-translate="SELECT_ESTONIA">
+                </div>
+                <div class="countries-option" id="finland" data-translate="SELECT_FINLAND">
+                </div>
+                <div class="countries-option" id="france" data-translate="SELECT_FRANCE">
+                </div>
+                <div class="countries-option" id="greece" data-translate="SELECT_GREECE">
+                </div>
+                <div class="countries-option" id="sweden" data-translate="SELECT_SWEDEN">
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a id="elections" data-translate="EU_ELECTION"></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="lang-menu">
+        <div class="selected-lang" id="eng">
+          <img src="../img/united-kingdom.png" alt="UK Flag" />
+          English
+        </div>
+        <div class="dropdown-lang">
+          <div class="lang-option" id="gr">
+            <img src="../img/greece.png" alt="Greek Flag" />
+            Greek
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="wrapper">
+    <div class="mainContent">
+      <div class="container1"></div>
+      <div class="container2">
+        <div class="info">
+          <h1 data-translate="SELECT_FRANCE"></h1>
+          <p data-translate="FRANCE_INFO"></p>
+          <div id="loader"></div>
+
+          <div class="data">
+            <div class="data-table">
+              <div style="display: none" id="myDiv" class="animate-bottom">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>
+                        <div class="header-content">
+                          <img src="../img/parliament.png" alt="Party Icon" class="header-icon" />
+                          <span data-translate="PARTY"></span>
+                        </div>
+                      </th>
+                      <th>
+                        <div class="header-content">
+                          <img src="../img/user.png" alt="Party Icon" class="header-icon" />
+                          <span data-translate="SEATS"></span>
+                        </div>
+                      </th>
+                      <th>
+                        <div class="header-content">
+                          <img src="../img/voting-box.png" alt="Votes Icon" class="header-icon" />
+                          <span data-translate="VOTES"></span>
+                        </div>
+                      </th>
+                      <th>
+                        <div class="header-content">
+                          <img src="../img/voting-box.png" alt="Votes Icon" class="header-icon" />
+                          <span data-translate="PART_OF"></span>
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody id="table-body"></tbody>
+                </table>
+              </div>
+            </div>
+            <div class="data2">
+              <div class="data-percent">
+                <div
+                  class="percent-bars"
+                  name=""
+                  percentage=""
+                  color=""
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container3">
+        <div class="data-genders">
+          <div class="males">
+            <img src="../img/man.png" />
+            <div class="counter-container">
+              <div class="number">0</div>
+              <div class="label" data-translate="MEN_ELECTED"></div>
+            </div>
+          </div>
+          <div class="females" style="margin-top: 10%">
+            <img src="../img/woman.png" />
+            <div class="counter-container">
+              <div class="number">0</div>
+              <div class="label" data-translate="WOMEN_ELECTED">Women elected</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper2">
+    <footer>
+      <a href="#">
+        <img class="logo" src="../img/logo.png" alt="Electra Logo" />
+      </a>
+      <p>2024-2025</p>
+    </footer>
+  </div>
+  </div>
+    <div></div>
+    <script src="../Scripts/translation.js" type="module"></script>
+    <script src="../Scripts/script-france.js" type="module"></script>
+  </body>
+</html>
